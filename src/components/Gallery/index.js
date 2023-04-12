@@ -13,7 +13,9 @@ function VideoCard({ videos }) {
             <div className="card-image-position">
                 <Card.Title className="cardBodyText">{name}</Card.Title>
                 <Card.Body className="cardBodyText" >
-                    <iframe width="560" height="315" src={videoLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="iframecontainer">
+                        <iframe className="responsive-iframe" src={videoLink} title="YouTube video player" ></iframe>
+                    </div>
                 </Card.Body>
             </div>
         </Card>

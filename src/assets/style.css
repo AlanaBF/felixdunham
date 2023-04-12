@@ -2,15 +2,8 @@ h1,
 h2,
 h3,
 h4 {
-    padding: 2rem;
+    padding: 1rem;
     color: #EDF1D6;
-}
-
-h3 {
-    font-size: 300%;
-    text-align: center;
-    border-radius: 100%;
-    padding-top: 10%;
 }
 
 p {
@@ -36,26 +29,24 @@ p {
 
 /* Navbar */
 nav a:hover {
-    color: dimgrey !important;
+    color: #EDF1D6 !important;
 }
 
 .navbar-brand {
-    color: #5FF !important;
-    font-size: 200%;
+    color: #EDF1D6;
+    font-size: 100%;
     margin-left: 0%;
-    font-family: 'Caveat', cursive;
-    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .navbar {
-    background-color: #609966;
+    background-color: #9DC08B;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 150%;
     justify-content: space-around;
 }
 
 .nav-link {
-    color: #9DC08B;
+    color: #609966;
     font-size: 60%;
 }
 
@@ -66,7 +57,7 @@ nav a:hover {
 .giphyFrame {
     border-radius: 100%;
     border: 20px solid #EDF1D6;
-    display: flex;
+
     padding: 5%;
     position: absolute;
     left: 60%;
@@ -75,34 +66,33 @@ nav a:hover {
 
 .homeBackground {
     background-image: url(./images/camouflage_2_generated.jpg);
-    min-height: 85vh;
+    height: 100vh;
     width: 100%;
     background-position: center center;
-    padding-bottom: 5%;
     background-repeat: no-repeat;
 }
 
 .tankPic {
-    display: flex;
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: auto;
     position: absolute;
-    top: 10%;
+    top: 30%;
 }
 
 .welcome {
     background-color: #609966;
-    width: fit-content;
-    border-radius: 100%;
+    width: 30%;
+    border-radius: 100px;
     position: relative;
-    left: 50%;
+    left: 30%;
+    text-align: center;
 }
 
 .myname {
     background-color: #609966;
     position: absolute;
-    left: 20%;
-    border-radius: 100%;
+    left: 40%;
+    border-radius: 100px;
 }
 
 .text {
@@ -111,60 +101,65 @@ nav a:hover {
     width: 50%;
     position: relative;
     left: 40%;
-    padding: 2rem;
-    margin-top: 10%;
-    border-radius: 100%;
+    padding: 2%;
+    margin-top: 20%;
+    border-radius: 100px;
 }
 
 /* Google Search Component */
+.googleSearchText {
+    color: #EDF1D6;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+}
+
 .googleSearch {
     color: #EDF1D6;
-    width: 50%;
+    width: 100%;
     margin: auto;
     display: flex;
-    font-weight: bold;
-    font-size: 1rem;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .googleSubmit {
-    border-radius: 30%;
+    border-radius: 10px;
     background-color: #EDF1D6;
     color: #609966;
-    margin: 10% auto 10%;
+    margin: auto;
     display: flex;
     border: #9DC08B;
-    font-size: 1rem;
-    padding: 2%;
+    font-size: 100%;
+    padding: 1%;
 }
 
 .googleTextEnter {
-    border-radius: 30%;
+    border-radius: 10px;
     background-color: #EDF1D6;
     color: #609966;
-    margin: 10% auto 10%;
     display: flex;
     border: #9DC08B;
-    font-size: 1rem;
+    font-size: 100%;
     padding: 5%;
-    height: 100%;
-    width: 400%;
+    margin-left: 0;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    width: 400px;
 }
 
 .googlePosition {
     background-color: #609966;
-    margin: 1% auto 1%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto 50% auto;
     width: 40%;
-    height: 250%;
-    padding: 2%;
-    border-radius: 100%;
+    border-radius: 100px;
 }
 
 /* Photos Carousel */
-
-
 .myPhotos {
     background-color: #609966;
     width: fit-content;
@@ -174,101 +169,288 @@ nav a:hover {
 
 .img1 {
     display: flex;
-    width: 80vh;
-    height: 50vh;
+    width: 50%;
+    height: 40%;
     justify-content: center;
     margin: auto;
 }
 
 .img2 {
     display: flex;
-    width: 50vh;
-    height: 50vh;
+    width: 30%;
+    height: 30%;
     justify-content: center;
     margin: auto;
 }
 
 /* Contact me */
+.contact {
+    background-color: #609966;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: auto;
+}
+
 .followMe {
-    font-size: 6rem;
+    font-size: 10rem;
     font-weight: bold;
     color: #EDF1D6;
     display: flex;
-    position: absolute;
-    left: 40%;
-    margin-top: 50px;
+    margin-top: 40%;
 }
 
 .tiktok {
     display: flex;
-    position: absolute;
-    left: 50%;
-    width: 10%;
+    width: 20%;
     margin: auto;
 }
 
-span {
+.iconcontainer {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3%;
 }
 
-.card {
-    display: flex;
-    margin: auto;
-    width: 40rem;
-    background: #fff;
-    border-radius: 3%;
-    border: 1rem solid #609966;
-    margin: 1%;
+.iframecontainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 50%;
+    width: 40%;
+    height: 60%;
+    background: #fff;
+    border-radius: 50px;
+    border: 10px solid #609966;
+}
 
 .cardBody {
     display: flex;
-    margin: auto;
+    width: 100%;
+    height: 80%;
     justify-content: center;
-    position: relative;
     align-items: center;
     text-align: center;
 }
 
 .cardBodyText {
     font-size: 100%;
-    height: 10%;
-    border-top: 1rem solid #609966;
+    height: 5%;
+    border-top: 10% solid #609966;
     text-align: center;
 }
 
 .VideoCard {
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .myVideosTitle {
+    display: flex;
     background-color: #609966;
-    width: fit-content;
-    border-radius: 100%;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100px;
     margin: auto;
 }
 
 .intro {
-
+    display: flex;
     margin: auto;
     text-align: center;
+    justify-content: center;
+}
+
+.moreInfo {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .seeMore {
-   font-size: 4rem;
+    font-size: 4rem;
     font-weight: bold;
     color: #EDF1D6;
-    display: flex;
-  margin: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1040px) {
+
+    .googleSearchText {
+        color: #EDF1D6;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .googleSubmit {
+        border-radius: 30%;
+        background-color: #EDF1D6;
+        color: #609966;
+        display: flex;
+        border: #9DC08B;
+        font-size: 100%;
+        padding: 1%;
+    }
+
+    .googleTextEnter {
+        border-radius: 30%;
+        background-color: #EDF1D6;
+        color: #609966;
+        border: #9DC08B;
+        font-size: 100%;
+        padding: 10%;
+        height: 100%;
+        width: 300%;
+    }
+
+    .googlePosition {
+        background-color: #609966;
+        width: 80%;
+        height: 100%;
+        padding: 1%;
+        border-radius: 100%;
+    }
+
+    .tankPic {
+        width: 40%;
+        height: auto;
+        position: relative;
+    }
+}
+
+@media (max-width: 920px) {
+    .followMe {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #EDF1D6;
+        display: block;
+        margin-top: 3%;
+    }
+
+    .tiktok {
+        display: block;
+        width: 10%;
+    }
+
+    .giphyFrame {
+        border-radius: 100%;
+        border: 20px solid #EDF1D6;
+        margin: auto;
+    }
+
+    .homeBackground {
+        background-image: url(./images/camouflage_2_generated.jpg);
+        min-height: 85vh;
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .tankPic {
+        width: 30%;
+        height: auto;
+        position: relative;
+    }
+
+    .welcome {
+        background-color: #609966;
+        width: fit-content;
+        border-radius: 50%;
+    }
+
+    .myname {
+        background-color: #609966;
+        border-radius: 500%;
+    }
+
+    .text {
+        background-color: #609966;
+        display: inline-block;
+        width: 50%;
+        padding: 2%;
+        margin-top: 10%;
+        border-radius: 100%;
+    }
+
+    /* Google Search Component */
+    .googleSearchText {
+        color: #EDF1D6;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .googleSubmit {
+        border-radius: 30%;
+        background-color: #EDF1D6;
+        color: #609966;
+
+        display: flex;
+        border: #9DC08B;
+        font-size: 100%;
+        padding: 1%;
+    }
+
+    .googleTextEnter {
+        border-radius: 30%;
+        background-color: #EDF1D6;
+        color: #609966;
+
+
+        border: #9DC08B;
+        font-size: 80%;
+        padding: 5%;
+        height: 100%;
+        width: 400%;
+    }
+
+    .googlePosition {
+        background-color: #609966;
+        width: 80%;
+        height: 100%;
+        padding: 1%;
+        border-radius: 100%;
+    }
 }
