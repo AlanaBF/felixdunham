@@ -1,0 +1,272 @@
+h1,
+h2,
+h3,
+h4 {
+    padding: 2rem;
+    color: #EDF1D6;
+}
+
+h3 {
+    font-size: 300%;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+p {
+    color: #EDF1D6;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #609966;
+    color: #EDF1D6;
+    font-size: 1rem !important;
+    text-align: center;
+    padding: 1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav a:hover {
+    color: dimgrey !important;
+}
+
+.navbar-brand {
+    color: #5FF !important;
+    font-size: 100%;
+    margin-left: 0%;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.navbar {
+    background-color: #609966;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: #9DC08B;
+    font-size: 60%;
+}
+
+.ms-auto {}
+
+/* Home Page */
+
+.giphyFrame {
+    border-radius: 30%;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 70%;
+    margin: auto;
+}
+
+.homeBackground {
+    background-image: url(./images/camouflage_2_generated.jpg);
+    min-height: 85vh;
+    width: 100%;
+    background-position: center center;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+.tankPic {
+    display: flex;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+}
+
+.welcome {
+    background-color: #609966;
+    width: fit-content;
+    border-radius: 100%;
+    position: relative;
+    left: 625px;
+}
+
+.myname {
+    background-color: #609966;
+    position: absolute;
+    left: 800px;
+    border-radius: 100%;
+}
+
+.text {
+    background-color: #609966;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    left: 40%;
+    padding: 2rem;
+    margin-top: 10%;
+    border-radius: 100%;
+}
+
+/* Google Search Component */
+.googleSearch {
+    color: #EDF1D6;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleSubmit {
+    border-radius: 30%;
+    background-color: #EDF1D6;
+    color: #609966;
+    margin: auto;
+    display: flex;
+    border: #9DC08B;
+    font-size: 1rem;
+    padding: 2%;
+}
+
+.googleTextEnter {
+    border-radius: 30%;
+    background-color: #EDF1D6;
+    color: #609966;
+    margin: auto;
+    display: flex;
+    border: #9DC08B;
+    font-size: 1rem;
+    padding: 2%;
+    height: 50px;
+    width: 400px;
+}
+
+.googlePosition {
+    background-color: #609966;
+    margin: 2% auto 2%;
+    width: 50%;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Photos Carousel */
+
+
+.myPhotos {
+    background-color: #609966;
+    width: fit-content;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.img1 {
+    display: flex;
+    width: 80vh;
+    height: 50vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.img2 {
+    display: flex;
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Contact me */
+.followMe {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #EDF1D6;
+    display: flex;
+    position: absolute;
+    left: 40%;
+    margin-top: 50px;
+}
+
+.tiktok {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    width: 10%;
+    margin: auto;
+}
+
+span {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    width: 40rem;
+    background: #fff;
+    border-radius: 3%;
+    border: 1rem solid #609966;
+    margin: 1%;
+}
+
+
+.cardBody {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.cardBodyText {
+    font-size: 100%;
+    height: 10%;
+    border-top: 1rem solid #609966;
+    text-align: center;
+}
+
+.VideoCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.myVideosTitle {
+    background-color: #609966;
+    width: fit-content;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.intro {
+
+    margin: auto;
+    text-align: center;
+}
+
+.seeMore {
+   font-size: 4rem;
+    font-weight: bold;
+    color: #EDF1D6;
+    display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
