@@ -2,7 +2,6 @@ h1,
 h2,
 h3,
 h4 {
-    padding: 1rem;
     color: #EDF1D6;
 }
 
@@ -55,18 +54,18 @@ nav a:hover {
 /* Home Page */
 
 .giphyFrame {
-    border-radius: 100%;
-    border: 20px solid #EDF1D6;
-
-    padding: 5%;
-    position: absolute;
-    left: 60%;
+    border-radius: 50px;
+    background-color: #EDF1D6;
+    border: 30px solid #EDF1D6;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homeBackground {
     background-image: url(./images/camouflage_2_generated.jpg);
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -75,35 +74,18 @@ nav a:hover {
 .tankPic {
     width: 35%;
     height: auto;
-    position: absolute;
-    top: 30%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 .welcome {
-    background-color: #609966;
-    width: 30%;
-    border-radius: 100px;
-    position: relative;
-    left: 30%;
+    margin: auto;
     text-align: center;
-}
-
-.myname {
-    background-color: #609966;
-    position: absolute;
-    left: 40%;
-    border-radius: 100px;
-}
-
-.text {
-    background-color: #609966;
-    display: inline-block;
-    width: 50%;
-    position: relative;
-    left: 40%;
-    padding: 2%;
-    margin-top: 20%;
-    border-radius: 100px;
+    justify-content: center;
 }
 
 /* Google Search Component */
@@ -111,52 +93,51 @@ nav a:hover {
     color: #EDF1D6;
     font-weight: bold;
     padding-top: 5%;
-    padding-bottom: 5%;
     font-size: 150%;
     text-align: center;
-    width: 100%;
+
 }
 
 .googleSearch {
     color: #EDF1D6;
-    width: 100%;
     margin: auto;
     display: flex;
     text-align: center;
 }
 
 .googleSubmit {
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: #EDF1D6;
     color: #609966;
     margin: auto;
     display: flex;
     border: #9DC08B;
-    font-size: 100%;
     padding: 1%;
 }
 
 .googleTextEnter {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #EDF1D6;
     color: #609966;
     display: flex;
     border: #9DC08B;
     font-size: 100%;
     padding: 5%;
-    margin-left: 0;
+    margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 5%;
-    width: 400px;
+    width: 600px;
 }
 
 .googlePosition {
     background-color: #609966;
     display: flex;
     justify-content: center;
-    margin: 5% auto 50% auto;
-    width: 40%;
-    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 1%;
+    border-radius: 50px;
+    width: fit-content;
 }
 
 /* Photos Carousel */
@@ -185,12 +166,13 @@ nav a:hover {
 
 /* Contact me */
 .contact {
-    background-color: #609966;
-    width: 30%;
+    background-color: #9DC08B;
+    width: 200px;
     text-align: center;
     justify-content: center;
-    border-radius: 100%;
-    margin: auto;
+    border-radius: 10px;
+   margin: 10% auto 10% auto;
+   padding: 1rem;
 }
 
 .followMe {
@@ -232,225 +214,155 @@ nav a:hover {
     height: 100%;
 }
 
-.card {
+.VideoCard {
     display: flex;
-    margin-bottom: 50%;
-    width: 40%;
-    height: 60%;
-    background: #fff;
-    border-radius: 50px;
-    border: 10px solid #609966;
-}
-
-.cardBody {
-    display: flex;
+    margin-top: 5%;
     width: 100%;
-    height: 80%;
-    justify-content: center;
+    height: auto;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.card {
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+    background: #fff;
+    border-radius: 30px;
+    border: 1rem solid #609966;
 }
 
 .cardBodyText {
     font-size: 100%;
-    height: 5%;
-    border-top: 10% solid #609966;
+    height: auto;
+    border-top: 1rem solid #609966;
     text-align: center;
-}
-
-.VideoCard {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .myVideosTitle {
     display: flex;
     background-color: #609966;
-    width: 30%;
+    width: 20%;
     text-align: center;
     justify-content: center;
-    border-radius: 100px;
+    border-radius: 10px;
     margin: auto;
 }
 
-.intro {
+ .intro {
     display: flex;
     margin: auto;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .moreInfo {
-    display: flex;
+    display: inline;
     margin: auto;
     text-align: center;
     justify-content: center;
 }
 
 .seeMore {
-    font-size: 4rem;
+    display: flex;
+    font-size: 5rem;
     font-weight: bold;
     color: #EDF1D6;
-    
     margin: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-@media (max-width: 1040px) {
-
-    .googleSearchText {
-        color: #EDF1D6;
-        width: 100%;
-        margin: auto;
-        display: flex;
-        font-weight: bold;
-        font-size: 100%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .googleSubmit {
-        border-radius: 30%;
-        background-color: #EDF1D6;
-        color: #609966;
-        display: flex;
-        border: #9DC08B;
-        font-size: 100%;
-        padding: 1%;
-    }
-
-    .googleTextEnter {
-        border-radius: 30%;
-        background-color: #EDF1D6;
-        color: #609966;
-        border: #9DC08B;
-        font-size: 100%;
-        padding: 10%;
-        height: 100%;
-        width: 300%;
-    }
-
-    .googlePosition {
-        background-color: #609966;
-        width: 80%;
-        height: 100%;
-        padding: 1%;
-        border-radius: 100%;
-    }
-
-    .tankPic {
-        width: 40%;
-        height: auto;
-        position: relative;
-    }
-}
-
 @media (max-width: 920px) {
     .followMe {
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: bold;
         color: #EDF1D6;
         display: block;
-        margin-top: 3%;
+        margin-top: 50%;
     }
 
     .tiktok {
         display: block;
-        width: 10%;
+        width: 20%;
     }
 
     .giphyFrame {
-        border-radius: 100%;
+        border-radius: 50px;
         border: 20px solid #EDF1D6;
         margin: auto;
     }
 
     .homeBackground {
         background-image: url(./images/camouflage_2_generated.jpg);
-        min-height: 85vh;
         width: 100%;
         background-position: center center;
         background-repeat: no-repeat;
     }
 
     .tankPic {
-        width: 30%;
+        width: 40%;
         height: auto;
-        position: relative;
-    }
-
-    .welcome {
-        background-color: #609966;
-        width: fit-content;
-        border-radius: 50%;
-    }
-
-    .myname {
-        background-color: #609966;
-        border-radius: 500%;
-    }
-
-    .text {
-        background-color: #609966;
-        display: inline-block;
-        width: 50%;
-        padding: 2%;
-        margin-top: 10%;
-        border-radius: 100%;
-    }
-
-    /* Google Search Component */
-    .googleSearchText {
-        color: #EDF1D6;
-        width: 100%;
-        margin: auto;
         display: flex;
-        font-weight: bold;
-        font-size: 100%;
-        text-align: center;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
-    .googleSubmit {
-        border-radius: 30%;
+}
+
+@media (max-width: 700px) {
+    .googleTextEnter {
+        border-radius: 20px;
         background-color: #EDF1D6;
         color: #609966;
-
         display: flex;
         border: #9DC08B;
         font-size: 100%;
-        padding: 1%;
-    }
-
-    .googleTextEnter {
-        border-radius: 30%;
-        background-color: #EDF1D6;
-        color: #609966;
-
-
-        border: #9DC08B;
-        font-size: 80%;
         padding: 5%;
-        height: 100%;
-        width: 400%;
+        margin: 5%;
+        width: 400px;
     }
 
     .googlePosition {
         background-color: #609966;
-        width: 80%;
-        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 5%;
         padding: 1%;
-        border-radius: 100%;
+        border-radius: 50px;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 485px) {
+    .googleTextEnter {
+        border-radius: 20px;
+        background-color: #EDF1D6;
+        color: #609966;
+        display: flex;
+        border: #9DC08B;
+        font-size: 100%;
+        padding: 5%;
+        margin: 5%;
+        width: 200px;
+    }
+
+    .googlePosition {
+        background-color: #609966;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        padding: 1%;
+        border-radius: 50px;
+        width: 350px;
     }
 }

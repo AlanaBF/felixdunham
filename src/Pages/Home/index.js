@@ -11,10 +11,12 @@ function Home() {
             <div className="dinoGiphy">
                 <iframe title="myFrame" className="giphyFrame" src="https://giphy.com/embed/iVqXV4vE4DDYk" allowFullScreen></iframe>
             </div>
-            <h1 className="welcome">Welcome to me</h1>
-            <h2 className="myname">Felix Dunham</h2>
+            <div className="welcome">
+                <h1 className="title">Welcome to me</h1>
+                <h2 className="myname">Felix Dunham</h2>
+                <p className="text">I love taking photos and videos and editing them to make really cool content.</p>
+            </div>
             <img className="tankPic" src={require('../../assets/images/challenger2.png')} alt="" />
-            <p className="text">I love taking photos and videos and editing them to make really cool content.</p>
             <div className="googlePosition">
                 <GoogleSearch />
             </div>
